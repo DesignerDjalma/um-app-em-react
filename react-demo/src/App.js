@@ -1,12 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import TarefasAFazer from './TarefasAFazer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
-  );
+
+    <>
+    
+    <TarefasAFazer />
+    <input type="text"/>
+    <button>Adicionar Tarefa a fazer</button>
+    <button>Limpar: Completo</button>
+    <div>0 Tarefas Restantes</div>
+
+    </>
+  
+    );
 }
 
 export default App;
